@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="768" height="620" viewBox="0 0 768 620" role="img" aria-labelledby="title description">
+  <title id="title">Two paths to a missing policy exception</title>
+  <desc id="description">Both policy clauses are indexed. On path A, the search cutoff excludes the defect exception. On path B, search returns both clauses and prompt assembly drops the exception. In both paths, only the ordinary rule reaches the model.</desc>
+  <rect x="0" y="0" width="768" height="620" rx="28" fill="#f3f7fa"/>
+
+  <g fill="none" stroke="#4b6577" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <polyline points="384,113 384,141 193,141 193,172"/>
+    <polyline points="384,141 575,141 575,172"/>
+    <polyline points="575,315 575,354"/>
+    <polyline points="193,315 193,487 384,487 384,515"/>
+    <polyline points="575,455 575,487 384,487"/>
+  </g>
+  <g fill="#4b6577">
+    <polygon points="185,163 201,163 193,174"/>
+    <polygon points="567,163 583,163 575,174"/>
+    <polygon points="567,345 583,345 575,356"/>
+    <polygon points="376,506 392,506 384,517"/>
+  </g>
+
+  <rect x="132" y="31" width="504" height="82" rx="20" fill="#163c3e"/>
+  <g fill="#ffffff" stroke="#b9c9d3" stroke-width="2">
+    <rect x="29" y="174" width="328" height="141" rx="20"/>
+    <rect x="411" y="174" width="328" height="141" rx="20"/>
+    <rect x="411" y="356" width="328" height="99" rx="20"/>
+  </g>
+  <rect x="132" y="517" width="504" height="82" rx="20" fill="#163c3e"/>
+
+  <g font-family="Segoe UI, Arial, sans-serif" text-anchor="middle" dominant-baseline="central">
+    <g fill="#ffffff" font-size="32" font-weight="700">
+      <text x="384" y="72">Both clauses are indexed</text>
+      <text x="384" y="572">Ordinary rule only</text>
+    </g>
+    <text x="384" y="540" fill="#b8e0dc" font-size="23" font-weight="700">MODEL INPUT</text>
+    <g fill="#2b5968" font-size="23" font-weight="700">
+      <text x="193" y="203">A. SEARCH CUTOFF</text>
+      <text x="575" y="203">B. PROMPT BUDGET</text>
+    </g>
+    <g fill="#172e3c" font-size="32" font-weight="700">
+      <text x="193" y="247">Search omits</text>
+      <text x="193" y="282">the exception</text>
+      <text x="575" y="247">Search returns</text>
+      <text x="575" y="282">both clauses</text>
+      <text x="575" y="389">Assembly drops</text>
+      <text x="575" y="424">the exception</text>
+    </g>
+  </g>
+</svg>
