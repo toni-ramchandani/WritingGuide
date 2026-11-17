@@ -1,4 +1,4 @@
-# Zain Style Writing Pack — v1.0
+# Zain Style Writing Pack — v1.1
 
 ## What this is
 
@@ -30,6 +30,10 @@ The reader should finish able to:
 
 The typical Medium feature target discussed previously was **8–10 minutes**, but this is a planning default, not a hard length cap. Deep investigations or complete build tutorials may take much longer. A 1,100-word synopsis is not automatically a finished article.
 
+## Clarity in drafting and review
+
+[Zain Style v1.1](ZAIN_STYLE_GUIDE.md#precision-without-losing-the-story) requires actor clarity, stable technical language, and preservation of source conditions during drafting. [Review Pass F](EDITORIAL_REVIEW.md#pass-f--precision-editing-with-semantic-preservation) checks the same obligations independently after technical review. Reference-led explainers can use published demos and source traces without a custom installation.
+
 ## Start a new article
 
 Open [ARTICLE_WORKSHEET.md](ARTICLE_WORKSHEET.md), then [WRITING_PROMPT.md](WRITING_PROMPT.md). Approve the question, distinct thesis, evidence, technical path, and required figures before committing to an article. Draft section-by-section when instructed.
@@ -38,4 +42,4 @@ Open [ARTICLE_WORKSHEET.md](ARTICLE_WORKSHEET.md), then [WRITING_PROMPT.md](WRIT
 
 ## Status
 
-Version: 1.0. Scope: editorial method. No independent claim is made here about a specific creator's unpublished production process.
+Version: 1.1. Scope: editorial method. No independent claim is made here about a specific creator's unpublished production process.

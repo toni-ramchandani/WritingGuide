@@ -1,6 +1,6 @@
 # Zain Style: narrative-driven engineering writing
 
-**Version:** 1.0  
+**Version:** 1.1  
 **Authority:** Default *narrative* standard for the author's Medium technical articles. Pair with the [Technical Article Master Playbook](../TECHNICAL_ARTICLE_MASTER_PLAYBOOK_v1_0.md) for research, evidence, and technical release gates.
 
 ## 1. What Zain style means here
@@ -90,6 +90,8 @@ For a build tutorial, include the needed file structure, dependencies, version c
 
 For an analysis-only article, a precise trace, paper figure, or standards example can be stronger than throwaway code. **Do not build an application merely so an article can say it is practical.**
 
+A **reference-led explainer** can trace an official demo, public source code, or a standards example without asking the reader to install anything. State what a source demonstrates, what it merely documents, and what has not been independently executed. Do not add a new implementation or setup instructions unless the article promises a reproducible build.
+
 Evidence vocabulary is strict:
 - **Executed/observed:** actual recorded run with environment and outcome.
 - **Reported:** another team's published experiment, with attribution and scope.
@@ -135,6 +137,22 @@ Compare serious alternatives fairly and under stated conditions. Challenge vendo
 The [master review protocol](../Technical_Article_Editorial_Kit_v1_0/06_EDITORIAL_REVIEW.md) blocks fabricated experiments, unsupported performance claims, false trust boundaries, inaccurate diagrams, and invention of firsthand experience.
 
 For the author's examples: a passing mocked callback is not proof a browser discovered a native tool; an executed fixture is not proof an external framework was executed; an illustrative service is not evidence of production deployment. These distinctions must be preserved in prose, captions, summaries, and social promotion.
+
+### Precision without losing the story
+
+**Name the actor, action, condition, and effect.** The browser discovers a page tool, the page runs the callback, and the backend authorizes a transaction. These are different responsibilities. Avoid sentences that collapse them into vague statements such as "the agent handled the workflow."
+
+**Use stable terms and clear references.** Define unfamiliar terms at first use, then keep the same technical name. Replace "this," "it," or "that process" when readers would have to guess its referent, but do not ban ordinary pronouns. Use simple words where possible without replacing precise engineering language with incorrect substitutes.
+
+**Make causality readable.** Let each paragraph advance a technical claim and support it with the mechanism, evidence, or a worked example. Follow real operations in their execution order. Split sentences when the acting component or responsibility changes, rather than imposing an arbitrary sentence length. Keep useful analogies, rhythm, and occasional memorable language when they genuinely improve understanding.
+
+**Protect the meaning when editing.** Preserve negations, numeric conditions, versions, permission scope, uncertainty, failure cases, and the distinction between proposed, documented, simulated, tested, and production behavior.
+
+Illustrative before: "WebMCP seamlessly makes browser agents more reliable."
+
+Illustrative after: "WebMCP lets compatible browser agents invoke tools registered by a webpage. Whether the workflow becomes more reliable requires outcome-based evaluation."
+
+Apply the independent [semantic-preservation review](EDITORIAL_REVIEW.md#pass-f--precision-editing-with-semantic-preservation) after drafting. These are selective clarity principles informed by the [Plain Writing Skill](https://github.com/docwriter-org/plain-writing-skill), not its strict ban on analogy, imagery, or engaging language.
 
 ## 9. Discoverability: SEO, AEO and GEO without distortion
 

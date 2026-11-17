@@ -58,9 +58,16 @@ section must do a unique job. No artificial suspense, generic hype, endless
 bullets, or imitation of any person's exact wording.
 
 Give one SEO-aware true title and a complementary subtitle. State important
-definitions close to their first use. Put GEO/AEO metadata and verification
-notes outside the manuscript. Produce article.md, complete figures, and a
-separate editor-handoff.md. Do not claim tests you did not execute.
+definitions close to their first use. Identify the actor, operation, conditions,
+and observable result. Keep technical terms stable; resolve ambiguous pronouns;
+remove unsupported emphasis. Preserve the source's scope and uncertainty.
+Do not flatten useful storytelling into mechanical short sentences.
+
+For a reference-led explainer, use authoritative public demonstrations or
+source traces rather than creating a new implementation or installation guide.
+Put GEO/AEO metadata and verification notes outside the manuscript. Produce
+article.md, complete figures, and a separate editor-handoff.md. Do not claim
+tests you did not execute.
 ```
 
 ## 3. Write one section at a time (when requested)
@@ -96,6 +103,10 @@ Playbook, sources, tested code, and all figures. Critique in this order:
 5. Diagrams and mobile presentation: semantics, caption, alt text, placement.
 6. SEO/AEO/GEO: truthful query intent, accurate title/subtitle, explicit
    sources, no keyword stuffing or ranking guarantees.
+7. Final precision review: verify actor clarity, stable terminology, explicit
+   conditions, and unambiguous references. Confirm that edits did not remove
+   permissions, version limits, uncertainty, negative cases, or evidence scope.
+   Do not mechanically ban analogies or stylistic rhythm.
 
 Return findings as ABC (actual text or defect) -> XYZ (specific replacement)
 -> reason/evidence and severity. Provide a corrected complete manuscript
