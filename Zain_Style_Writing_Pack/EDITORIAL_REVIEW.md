@@ -60,6 +60,27 @@ Apply to **the latest complete article and its exact linked assets**, never just
 - [ ] No promises of search ranking or AI answer-engine citations.
 - [ ] Source date, code version and experimental support revalidated before publishing.
 
+## Pass F — Precision editing with semantic preservation
+
+Apply **after** the technical, narrative, visual, and publication reviews. This pass adds a sentence-level check that the other gates do not fully operationalize. It is **not** a replacement for the Zain narrative voice or permission to shorten the mechanism.
+
+- [ ] **Name the actor and operation.** If a sentence says something was "enabled," "handled," or "made reliable," identify the browser, page callback, agent, server, reviewer, or test that actually does it. Prefer a concrete observable behavior over a promotional abstraction.
+- [ ] **Resolve ambiguous references.** Replace a vague "this," "that," "it," or "the process" when the reader cannot identify its antecedent on the first read. Do not mechanically ban demonstratives that already have clear referents.
+- [ ] **Preserve stable technical terms.** Keep protocol names, identifiers, standards language, and necessary jargon. Define them at first consequential use; do not invent synonyms for variation or substitute a simpler but incorrect term.
+- [ ] **Follow the causal order.** When a sentence compresses multiple actors or stages, break it where responsibility changes, and keep conditions next to the operations they govern. Do not impose an arbitrary clause count or turn every paragraph into short fragments.
+- [ ] **Remove inflated claims and rhetorical filler.** Replace "seamlessly," "robust," "revolutionary," or vague "more reliable" with the specific capability or measured outcome, if supported. Keep a useful analogy, meaningful contrast, or memorable sentence when it accurately teaches the mechanism.
+- [ ] **Check meaning survived the edit.** Compare each rewritten claim with the source: preserve negations, quantified values, versions, timing, permissions, uncertainty, evidence type, failure conditions, and the outcome the reader must check. Reject an elegant rewrite if it drops a constraint or converts "proposed" into "supported," "simulated" into "tested," or "tool called" into "task completed."
+
+**Illustrative copy edit (not an observed experiment):**
+
+Before: "The interface makes it easier for agents to interact with a site, while the site still needs to take care of validating the inputs."
+
+After: "A compatible browser agent can invoke a tool registered by the page. The page must still validate the tool arguments."
+
+The revision names the actors and obligation. It does not claim that a successful call proves task completion. For a real article, check those statements against the applicable specification and keep its browser-support qualification close by.
+
+**Why only a selective addition:** [Plain writing skill](https://github.com/docwriter-org/plain-writing-skill) usefully highlights actor clarity, stable terms, and unsupported emphasis. Its blanket bans on imagery, analogies, dashes, and memorable phrasing conflict with Zain-style technical storytelling and are **not** adopted. Its published evaluations primarily judge adherence to its own rules, rather than factual preservation or quality of long engineering narratives. This checklist is original editorial guidance; it does not reproduce the upstream skill.
+
 ## Mandatory change record
 
 | Finding | Severity | ABC: exact source text / actual defect | XYZ: full corrected wording, figure, or action | Reason and source | Dependent sections/files |
