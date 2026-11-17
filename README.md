@@ -10,6 +10,7 @@ An editorial system for original, technically rigorous articles about AI, softwa
 | [Technical Article Editorial Master Playbook](TECHNICAL_ARTICLE_MASTER_PLAYBOOK_v1_0.md) | **Technical and evidence controls**: thesis, breadth/depth/height, source register, diagrams, verification, review gates | Every substantive engineering article |
 | [Technical Article Editorial Kit](Technical_Article_Editorial_Kit_v1_0/00_START_HERE.md) | Separate templates, claim register, diagrams, prompts, and review protocol | Research and production workflow |
 | [Zen Style Writing Pack](Zen_Style_Writing_Pack/README.md) | A distinct, more restrained explanatory approach | Explicitly requested Zen-style pieces or shorter conceptual explainers |
+| [SeriousStyle](seriousstyle/README.md) | **Plain, exact, decision-oriented writing**: stable terms, explicit responsibility, semantic preservation, evidence limits | Technical reports, status updates, design reviews, decision memos, and incident reports |
 
 **Zain is not Zen.** These names refer to distinct writing approaches. The Zain pack records the author's repeatedly requested approach to Zain Anwer-inspired technical storytelling, not an assertion that the creator endorses or follows this guide. The Zen pack remains available, unchanged.
 
